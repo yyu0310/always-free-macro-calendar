@@ -2,7 +2,11 @@
 
 [繁體中文](README.zh-TW.md)
 
-A Google Apps Script (GAS) that scrapes central bank websites and calls the Finnhub API to write key macro events into Google Calendar. All events display in Taipei time (UTC+8).
+**Fully automated. Zero cost. No paid APIs.**
+
+A Google Apps Script (GAS) that tracks global macro events and writes them to Google Calendar automatically — FOMC, BOE, ECB, BOJ decisions and US CPI/PPI/NFP releases, all in one place.
+
+Most macro calendar tools either cost money or require manual updates. This one stitches together free public data sources (central bank websites + Finnhub free tier) and handles all the edge cases — daylight saving time across timezones, JS-rendered pages that APIs can't parse, and Finnhub's non-obvious event naming conventions. Once deployed, it runs on its own.
 
 ## Events covered
 

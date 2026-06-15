@@ -2,7 +2,11 @@
 
 [English](README.md)
 
-一個 Google Apps Script（GAS），自動抓取各央行官網與 Finnhub API，把重要總經事件寫入 Google Calendar，所有時間顯示為台北時間（UTC+8）。
+**完全免費，全自動，不需要付費 API。**
+
+一個 Google Apps Script（GAS），自動把全球重要總經事件寫入 Google Calendar：FOMC、BOE、ECB、BOJ 利率決議，以及美國 CPI/PPI/非農就業，全部集中在同一個月曆。
+
+大多數總經月曆工具要嘛收費，要嘛需要手動更新。這個工具把所有免費的公開資料來源（各央行官網 + Finnhub 免費版）接在一起，並處理好各種細節：各時區的夏令時間換算、GAS 無法解析的 JS 渲染頁面、Finnhub 事件命名的非直覺規則。部署一次之後，完全自動運行。
 
 ## 涵蓋事件
 
