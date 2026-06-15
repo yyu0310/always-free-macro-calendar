@@ -1,0 +1,7 @@
+# clasp deployment files — contain personal account and script ID
+.clasp.json
+.clasp-account
+
+# local development
+.env
+node_modules/
