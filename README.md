@@ -1,6 +1,6 @@
 # Global Macro Calendar
 
-[繁體中文](README.zh-TW.md)
+[繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
 
 **Fully automated. Zero cost. No paid APIs.**
 

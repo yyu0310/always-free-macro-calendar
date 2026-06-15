@@ -1,6 +1,6 @@
 # 全球總經事件月曆
 
-[English](README.md)
+[English](README.md) | [简体中文](README.zh-CN.md)
 
 **完全免費，全自動，不需要付費 API。**
 
