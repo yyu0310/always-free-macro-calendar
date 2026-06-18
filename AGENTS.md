@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 This is a Google Apps Script project that syncs global macro economic events to Google Calendar.
 
